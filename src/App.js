@@ -95,7 +95,7 @@ function App() {
                 <p className="text-muted">Published 2009</p>
                 <ul className="list-inline social-buttons">
                   <li className="list-inline-item">
-                    <a href="#something">
+                    <a href="https://www.amazon.com/Applying-Software-Hardware-Systems-paperback/dp/0133359468">
                       <i className="fa fa-globe"></i>
                     </a>
                   </li>
