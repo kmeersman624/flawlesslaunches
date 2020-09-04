@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import EM from '../src/assets/img/team/EM.png';
 import F1 from '../src/assets/img/team/1.jpg';
-import F2 from '../src/assets/img/team/2.jpg';
+import F2 from '../src/assets/img/team/SixSigma.png';
 import F3 from '../src/assets/img/team/3.jpg';
 
 
@@ -48,7 +48,7 @@ function App() {
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="#something">
+                    <a href="https://www.linkedin.com/in/eric-maass-9304a3/">
                       <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
@@ -170,6 +170,46 @@ function App() {
         </div>
       </section>
       {/* //END OF CONTACT FORM SECTION// */}
+      {/* //START OF FOOTER SECTION// */}
+      <footer className="footer">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-md-4">
+              <span className="copyright">Copyright &copy; Flawless Launches 2020</span>
+            </div>
+            <div className="col-md-4">
+              <ul className="list-inline social-buttons">
+                <li className="list-inline-item">
+                  <a href="#something">
+                    <i className="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li className="list-inline-item">
+                  <a href="#something">
+                    <i className="fa fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li className="list-inline-item">
+                  <a href="#something">
+                    <i className="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="col-md-4">
+              <ul className="list-inline quicklinks">
+                <li className="list-inline-item">
+                  <a href="#something">Privacy Policy</a>
+                </li>
+                <li className="list-inline-item">
+                  <a href="#something">Terms of Use</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      {/* //END OF FOOTER SECTION// */}
     </div>
   );
 }
