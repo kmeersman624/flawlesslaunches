@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import EM from '../src/assets/img/team/ericMaass.jpg';
+import EM from '../src/assets/img/team/EM.png';
 import F1 from '../src/assets/img/team/1.jpg';
 import F2 from '../src/assets/img/team/2.jpg';
 import F3 from '../src/assets/img/team/3.jpg';
