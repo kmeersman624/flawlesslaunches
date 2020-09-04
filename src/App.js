@@ -4,10 +4,32 @@ import EM from '../src/assets/img/team/EM.png';
 import F1 from '../src/assets/img/team/1.jpg';
 import F2 from '../src/assets/img/team/SixSigma.png';
 import F3 from '../src/assets/img/team/3.jpg';
+import Publications from './components/Publications';
 
 
 
 function App() {
+  const publicationLinks = [
+    {
+      image: F1,
+      title: 'Flawless Launches',
+      caption: 'Published 2020',
+      link: '#'
+    },
+    {
+      image: F2,
+      title: 'Six Sigma',
+      caption: 'Published 2009',
+      link: 'https://www.amazon.com/Applying-Software-Hardware-Systems-paperback/dp/0133359468'
+    },
+    {
+      image: F3,
+      title: 'Articles',
+      caption: 'Authored or Co-Authored',
+      link: '#'
+    }
+  ]
+
   return (
     <div className="App">
       {/* //START OF HEADER SECTION// */}
@@ -21,6 +43,7 @@ function App() {
         </div>
       </header>
       {/* //END OF HEADER SECTION// */}
+      
       {/* //START OF ABOUT AUTHOR SECTION// */}
       <section className="bg-light page-section" id="team">
         <div className="container">
@@ -64,67 +87,11 @@ function App() {
         </div>
       </section>
       {/* //END OF ABOUT AUTHOR SECTION// */}
+
       {/* //START OF PUBLICATIONS SECTION// */}
-      <section className="bg-light page-section" id="team">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12 text-center">
-              <h2 className="section-heading text-uppercase">Publications</h2>
-              <h3 className="section-subheading text-muted">Authored or CoAuthored By Eric Maass</h3>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-sm-4">
-              <div className="team-member">
-                <img className="mx-auto rounded-circle" src={F1} alt={F1}/>
-                <h4>Flawless Launches</h4>
-                <p className="text-muted">Published 2020</p>
-                <ul className="list-inline social-buttons">
-                  <li className="list-inline-item">
-                    <a href="#something">
-                      <i className="fa fa-globe"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-sm-4">
-              <div className="team-member">
-                <img className="mx-auto rounded-circle" src={F2} alt={F2}/>
-                <h4>Six Sigma</h4>
-                <p className="text-muted">Published 2009</p>
-                <ul className="list-inline social-buttons">
-                  <li className="list-inline-item">
-                    <a href="https://www.amazon.com/Applying-Software-Hardware-Systems-paperback/dp/0133359468">
-                      <i className="fa fa-globe"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-sm-4">
-              <div className="team-member">
-                <img className="mx-auto rounded-circle" src={F3} alt={F3}/>
-                <h4>Other Publications</h4>
-                <p className="text-muted">Other Publications</p>
-                <ul className="list-inline social-buttons">
-                  <li className="list-inline-item">
-                    <a href="#something">
-                      <i className="fa fa-globe"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-8 mx-auto text-center">
-              <p className="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Publications publicationLinks={publicationLinks}></Publications>
       {/* //END OF PUBLICATIONS SECTION// */}
+
       {/* //START OF CONTACT FORM SECTION// */}
       <section className="page-section" id="contact">
         <div className="container">
@@ -170,6 +137,7 @@ function App() {
         </div>
       </section>
       {/* //END OF CONTACT FORM SECTION// */}
+
       {/* //START OF FOOTER SECTION// */}
       <footer className="footer">
         <div className="container">
