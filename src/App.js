@@ -190,7 +190,7 @@ function App() {
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="#something">
+                  <a href="https://www.linkedin.com/in/eric-maass-9304a3/">
                     <i className="fa fa-linkedin"></i>
                   </a>
                 </li>
