@@ -6,8 +6,6 @@ import P2 from '../src/assets/img/team/SixSigma.png';
 import P3 from '../src/assets/img/team/3.jpg';
 import Publications from './components/Publications';
 
-
-
 function App() {
   const publicationLinks = [
     {
