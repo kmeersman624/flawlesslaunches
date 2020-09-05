@@ -63,7 +63,7 @@ function App() {
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="#something">
+                    <a href="https://www.facebook.com/eric.maass.79">
                       <i className="fa fa-facebook-f"></i>
                     </a>
                   </li>
