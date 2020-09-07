@@ -27,7 +27,7 @@
   ## User Story
   As a User
   I WANT to be able to access a site that clearly descirbes Flawless Launches Book
-  SO THAT I can easily purchase a copy or contac tthe Author.
+  SO THAT I can easily purchase a copy or contact the Author.
 
   ## Contributing
   Kate Meersman & Mike Zlotkowski
