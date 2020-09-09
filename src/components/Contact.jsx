@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import "./App.css";
+import "../App.css";
 
 class App extends React.Component {
   constructor(props) {
@@ -17,7 +17,7 @@ class App extends React.Component {
     e.preventDefault();
     axios({
       method: "POST",
-      url: "http://localhost:3002/send",
+      url: "https://localhost:3002/send",
       data: this.state,
     }).then((response) => {
       if (response.data.status === "success") {
@@ -41,13 +41,13 @@ class App extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="App" col-lg-12>
+            <div className= "col-lg-12">
               <form
                 id="contactForm"
                 onSubmit={this.handleSubmit.bind(this)}
                 method="POST"
                 name="sentMessage"
-                novalidate="novalidate"
+                noValidate="noValidate"
               >
                 <div className="row">
                   <div className="col-md-6">
