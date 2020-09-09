@@ -1,17 +1,33 @@
-import React, { Component } from "react";
+import React from "react";
 import axios from "axios";
 import "./App.css";
 
-class Contact extends Component {
-  state = {
-    name: "",
-    email: "",
-    phone: "",
-    message: "",
-    sent: false,
-    buttonText: "Send Message",
-  };
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "",
+      email: "",
+      phone: "",
+      message: "",
+    };
+  }
 
+  handleSubmit(e) {
+    e.preventDefault();
+    axios({
+      method: "POST",
+      url: "http://localhost:3002/send",
+      data: this.state,
+    }).then((response) => {
+      if (response.data.status === "success") {
+        alert("Message Sent");
+        this.resetForm();
+      } else if (response.data.status === "fail") {
+        alert("Message failed to send");
+      }
+    });
+  }
   render() {
     return (
       <section className="page-section" id="contact">
@@ -25,10 +41,11 @@ class Contact extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-12">
+            <div className="App" col-lg-12>
               <form
                 id="contactForm"
-                onSubmit={(e) => this.formSubmit(e)}
+                onSubmit={this.handleSubmit.bind(this)}
+                method="POST"
                 name="sentMessage"
                 novalidate="novalidate"
               >
@@ -40,10 +57,8 @@ class Contact extends Component {
                         id="name"
                         type="text"
                         placeholder="Your Name *"
-                        onChange={(e) =>
-                          this.setState({ name: e.target.value })
-                        }
                         value={this.state.name}
+                        onChange={this.onNameChange.bind(this)}
                         required="required"
                         data-validation-required-message="Please enter your name."
                       />
@@ -55,10 +70,8 @@ class Contact extends Component {
                         id="email"
                         type="email"
                         placeholder="Your Email *"
-                        onChange={(e) =>
-                          this.setState({ email: e.target.value })
-                        }
                         value={this.state.email}
+                        onChange={this.onEmailChange.bind(this)}
                         required="required"
                         data-validation-required-message="Please enter your email address."
                       />
@@ -70,10 +83,8 @@ class Contact extends Component {
                         id="phone"
                         type="tel"
                         placeholder="Your Phone *"
-                        onChange={(e) =>
-                          this.setState({ phone: e.target.value })
-                        }
                         value={this.state.phone}
+                        onChange={this.onPhoneChange.bind(this)}
                         data-validation-required-message="Please enter your phone number."
                       />
                       <p className="help-block text-danger"></p>
@@ -85,10 +96,8 @@ class Contact extends Component {
                         className="form-control"
                         id="message"
                         placeholder="Your Message *"
-                        onChange={(e) =>
-                          this.setState({ message: e.target.value })
-                        }
                         value={this.state.message}
+                        onChange={this.onMessageChange.bind(this)}
                         required="required"
                         data-validation-required-message="Please enter a message."
                       ></textarea>
@@ -103,7 +112,7 @@ class Contact extends Component {
                       className="btn btn-primary btn-xl text-uppercase"
                       type="submit"
                     >
-                      {this.state.buttonText}
+                      Send Message
                     </button>
                   </div>
                 </div>
@@ -114,37 +123,21 @@ class Contact extends Component {
       </section>
     );
   }
-  formSubmit = (e) => {
-    e.preventDefault();
+  onNameChange(event) {
+    this.setState({ name: event.target.value });
+  }
 
-    this.setState({
-      buttonText: "...sending",
-    });
+  onEmailChange(event) {
+    this.setState({ email: event.target.value });
+  }
 
-    let data = {
-      name: this.state.name,
-      email: this.state.email,
-      phone: this.state.phone,
-      message: this.state.message,
-    };
+  onPhoneChange(event) {
+    this.setState({ phone: event.target.value });
+  }
 
-    axios
-      .post("API_URI", data)
-      .then((res) => {
-        this.setState({ sent: true }, this.resetForm());
-      })
-      .catch(() => {
-        console.log("Message not sent");
-      });
-  };
-  resetForm = () => {
-    this.setState({
-      name: "",
-      message: "",
-      email: "",
-      buttonText: "Message Sent",
-    });
-  };
+  onMessageChange(event) {
+    this.setState({ message: event.target.value });
+  }
 }
 
-export default Contact;
+export default App;
