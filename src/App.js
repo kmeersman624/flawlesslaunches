@@ -3,13 +3,11 @@ import "./App.css";
 import P1 from "../src/assets/img/team/1.jpg";
 import P2 from "../src/assets/img/team/SixSigma.png";
 import P3 from "../src/assets/img/team/3.jpg";
-import Publications from "./components/Publications";
-import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Bio from "./components/Bio";
+import Publications from "./components/Publications";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-
-
 
 function App() {
   const publicationLinks = [
@@ -39,7 +37,7 @@ function App() {
       <Header />
       <Bio />
       <Publications publicationLinks={publicationLinks}></Publications>
-        <Contact />
+      <Contact />
       {/* //START OF CONTACT FORM SECTION// */}
       {/* <section className="page-section" id="contact">
         <div className="container">
