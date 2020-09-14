@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import P1 from "../src/assets/img/team/1.jpg";
 import P2 from "../src/assets/img/team/SixSigma.png";
-import P3 from "../src/assets/img/team/3.jpg";
+import P3 from "../src/assets/img/team/P3.jpg";
 import Header from "./components/Header";
 import Bio from "./components/Bio";
 import Publications from "./components/Publications";
@@ -26,9 +26,9 @@ function App() {
     },
     {
       image: P3,
-      title: "Articles",
-      caption: "Authored or Co-Authored",
-      link: "#",
+      title: "Supply Chain Modeling",
+      caption: "Published 2020",
+      link: "https://www.amazon.com/Supply-Chain-Modeling-Inventory-Semiconductory-ebook/dp/B07VQ78XMX",
     },
   ];
 
