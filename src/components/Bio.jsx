@@ -22,11 +22,11 @@ function Bio() {
               <h4>Dr. Eric Maass</h4>
               <p className="text-muted">Author / Engineer / Consultant</p>
               <ul className="list-inline social-buttons">
-                <li className="list-inline-item">
+                {/* <li className="list-inline-item">
                   <a href="#something">
                     <i className="fa fa-twitter"></i>
                   </a>
-                </li>
+                </li> */}
                 <li className="list-inline-item">
                   <a href="https://www.facebook.com/eric.maass.79">
                     <i className="fa fa-facebook-f"></i>
