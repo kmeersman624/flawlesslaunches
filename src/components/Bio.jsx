@@ -47,7 +47,7 @@ function Bio() {
               This book shares a proven path to successful, profitable new products. Developing profitable products and launching them, flawlessly, requires a different type of thinking than most of us may be used to. Probabilistic, model-based thinking, also called Predictive Engineering, is applied to defining profitable products to delight customers and investors. It is then applied during product development to ensure that customer expectations are met or exceeded, and business expectations for cost and time to market are also met. The supply chain is prepared so that the new product is launched with optimized yield, cycle time and cost. Success stories are shared, along with an overview of transformational leadership to help the organization both expect and celebrate flawless launches of profitable products.
             </p>
             <p className="large text-muted">
-              Dr. Eric Maass was a co-founder of the Six Sigma methods at Motorola,
+              The Author Dr. Eric Maass was a co-founder of the Six Sigma methods at Motorola,
               and was a key advocate for the focus on variance reduction; his
               article on a "Strategy to Reduce Variance" was published in
               1987, the year that Motorola announced Six Sigma. He is now
