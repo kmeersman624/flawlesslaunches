@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
-import P1 from "../src/assets/img/team/1.jpg";
+import P1 from "../src/assets/img/team/FL.png";
 import P2 from "../src/assets/img/team/SixSigma.png";
-import P3 from "../src/assets/img/team/P3.jpg";
+import P3 from "../src/assets/img/team/SCM.png";
 import Header from "./components/Header";
 import Bio from "./components/Bio";
 import Publications from "./components/Publications";
@@ -27,7 +27,7 @@ function App() {
     {
       image: P3,
       title: "Supply Chain Modeling",
-      caption: "Published 2020",
+      caption: "Published 2019",
       link: "https://www.amazon.com/Supply-Chain-Modeling-Inventory-Semiconductory-ebook/dp/B07VQ78XMX",
     },
   ];

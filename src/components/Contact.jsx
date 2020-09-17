@@ -12,7 +12,7 @@ export default class MyForm extends React.Component {
   }
 
   render() {
-    const { status } = this.state;
+    // const { status } = this.state;
     return (
       <section className="page-section" id="contact">
       <div className="container">
