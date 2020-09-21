@@ -3,3 +3,8 @@
     width: 75%;
     padding-bottom: 5%;
 };
+
+.BIO {
+    padding-bottom: 0!important;
+    margin-bottom: 0!important;
+};

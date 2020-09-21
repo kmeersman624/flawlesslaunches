@@ -6,7 +6,7 @@ import EM from "../assets/img/team/EM.png";
 function Bio() {
     return (
 
-      <section className="bg-light page-section" id="team">
+      <section className="bg-light page-section BIO" id="team">
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
