@@ -27,7 +27,7 @@ Link to deployed application:
 
 ## Image
 
-![image of site]()
+![image of site](/src/assets/img/team/flawlesspage.PNG)
 
 ## User Story
 
