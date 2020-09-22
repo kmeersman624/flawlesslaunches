@@ -29,7 +29,7 @@ export default class MyForm extends React.Component {
             <form
               id="contactForm"
               name="sentMessage"
-              action="https://formspree.io/xdowqbrv"
+              action="https://formspree.io/xjvpvozq"
               method="POST"
               noValidate="noValidate"
             >
