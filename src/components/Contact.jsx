@@ -18,8 +18,8 @@ export default class MyForm extends React.Component {
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
-            <h2 className="section-heading text-uppercase">Contact</h2>
-            <h3 className="section-subheading text-muted">
+            <h1 className="section-heading text-uppercase">Contact</h1>
+            <h3 className="section-subheading text-white">
               Interested In More Information? Or Ask About A Consultation!
             </h3>
           </div>

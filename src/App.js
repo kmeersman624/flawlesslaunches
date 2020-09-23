@@ -19,7 +19,7 @@ function App() {
     },
     {
       image: P2,
-      title: "Six Sigma",
+      title: "Design For Six Sigma",
       caption: "Published 2009",
       link:
         "https://www.amazon.com/Applying-Software-Hardware-Systems-paperback/dp/0133359468",

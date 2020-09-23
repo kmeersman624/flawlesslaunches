@@ -3,14 +3,8 @@ import "../App.css";
 import EM from "../assets/img/team/EM.png";
 
 function Bio() {
-<<<<<<< HEAD
-    return (
-
-      <section className="bg-light page-section BIO" id="team">
-=======
   return (
     <section className="bg-light page-section" id="team">
->>>>>>> 1e8e2a9bbb066cbf9a24c121bc39d282fbcbd8c5
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
