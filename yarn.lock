@@ -6983,6 +6983,11 @@ lodash.camelcase@^4.3.0:
   resolved "https://registry.yarnpkg.com/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
   integrity sha1-soqmKIorn8ZRA1x3EfZathkDMaY=
 
+lodash.compact@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/lodash.compact/-/lodash.compact-3.0.1.tgz#540ce3837745975807471e16b4a2ba21e7256ca5"
+  integrity sha1-VAzjg3dFl1gHRx4WtKK6IeclbKU=
+
 lodash.defaults@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/lodash.defaults/-/lodash.defaults-4.2.0.tgz#d09178716ffea4dde9e5fb7b37f6f0802274580c"
@@ -7533,6 +7538,13 @@ no-case@^3.0.3:
   dependencies:
     lower-case "^2.0.1"
     tslib "^1.10.0"
+
+node-dig-dns@^0.2.10:
+  version "0.2.10"
+  resolved "https://registry.yarnpkg.com/node-dig-dns/-/node-dig-dns-0.2.10.tgz#c535f40ebafb92f80911b584b798c14673f37b82"
+  integrity sha512-LKkPyrtNwf1oU9YYh68La4r+pN10exwcJhgNiLiJKZ7X6v9B5lMimXpqP9RE9jD+Hg/9cnvTYGtUCmt03lbpSA==
+  dependencies:
+    lodash.compact "^3.0.1"
 
 node-fetch@^2.2.0:
   version "2.6.1"
