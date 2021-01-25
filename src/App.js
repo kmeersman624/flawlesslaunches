@@ -14,8 +14,8 @@ function App() {
     {
       image: P1,
       title: "Flawless Launches",
-      caption: "Published 2020",
-      link: "#",
+      caption: "Published 2021",
+      link: "https://www.amazon.com/Flawless-Launches-Profitable-Eric-Maass-ebook/dp/B08TPWXPVL",
     },
     {
       image: P2,

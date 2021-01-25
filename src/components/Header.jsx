@@ -15,7 +15,7 @@ function Header() {
           {/* <div className="intro-heading text-uppercase">Flawless Launches</div> */}
           <a
             className="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-            href="#services"
+            href="https://www.amazon.com/Flawless-Launches-Profitable-Eric-Maass-ebook/dp/B08TPWXPVL"
           >
             BUY NOW!
           </a>

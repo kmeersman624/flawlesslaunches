@@ -4,7 +4,7 @@
 
 Single scroll website built with React.js that users can find out more information about the Flawless Launches book and author Dr. Eric C. Maass. Application contains contact form in addition to a link to purchase book through Amazon.
 
-Link to deployed application:
+Link to deployed application: https://flawlesslaunches.com/
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/kmeersman624/flawlesslaunches)
 
@@ -42,6 +42,10 @@ Kate Meersman & Mike Zlotkowski
 ## Challenges
 
 Kate had some issues to getting PHP to correctly install on her older PC which took some extra time. Once this was installed, it was easy to get email on contact form up and running when user clicks send message.
+
+We had to transfer custom domain to godaddy and add in IP addresses to DNS.
+
+Make sure to run command npm run deploy in terminal so that website updates changes accordingly.
 
 ## Future Development
 
