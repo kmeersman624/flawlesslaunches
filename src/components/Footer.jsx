@@ -14,7 +14,7 @@ function Footer() {
                 </a>
               </li> */}
               <li className="list-inline-item">
-                <a href="https://www.facebook.com/eric.maass.79">
+                <a href="https://m.facebook.com/#!/SixSigmaExperts/?tsid=0.026004728278671063&source=result">
                   <i className="fa fa-facebook-f"></i>
                 </a>
               </li>
