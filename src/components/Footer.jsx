@@ -8,13 +8,13 @@ function Footer() {
         <div className="row align-items-center">
           <div className="col-sm-12">
             <ul className="list-inline social-buttons">
-              {/* <li className="list-inline-item">
-                <a href="#something">
-                  <i className="fa fa-twitter"></i>
-                </a>
-              </li> */}
               <li className="list-inline-item">
-                <a href="https://m.facebook.com/#!/SixSigmaExperts/?tsid=0.026004728278671063&source=result">
+                <a href="https://www.sigmaexperts.com/">
+                  <i className="fa fa-globe"></i>
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="https://www.facebook.com/SixSigmaExperts">
                   <i className="fa fa-facebook-f"></i>
                 </a>
               </li>

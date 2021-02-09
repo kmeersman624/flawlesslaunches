@@ -20,13 +20,13 @@ function Bio() {
               <h4>Dr. Eric Maass</h4>
               <p className="text-muted">Author / Engineer / Consultant</p>
               <ul className="list-inline social-buttons">
-                {/* <li className="list-inline-item">
-                  <a href="#something">
-                    <i className="fa fa-twitter"></i>
-                  </a>
-                </li> */}
                 <li className="list-inline-item">
-                  <a href="https://m.facebook.com/#!/SixSigmaExperts/?tsid=0.026004728278671063&source=result">
+                  <a href="https://www.sigmaexperts.com/">
+                    <i className="fa fa-globe"></i>
+                  </a>
+                </li>
+                <li className="list-inline-item">
+                  <a href="https://www.facebook.com/SixSigmaExperts">
                     <i className="fa fa-facebook-f"></i>
                   </a>
                 </li>
@@ -57,12 +57,12 @@ function Bio() {
               flawless launches of profitable products.
             </p>
             <p className="large text-muted">
-              The Author Dr. Eric Maass was a co-founder of the{" "}
+              The author Dr. Eric Maass was a co-founder of the{" "}
               <a href="https://www.sigmaexperts.com/"> Six Sigma</a> methods at
               Motorola, and was a key advocate for the focus on variance
               reduction; his article on a "Strategy to Reduce Variance" was
-              published in 1987, the year that Motorola announced Six Sigma. He
-              is now taking on an educator role consulting businesses on how to
+              published in 1987, the year that Motorola announced <a href="https://www.sigmaexperts.com/"> Six Sigma</a>. He
+              is now taking on an educator role <a href="https://www.sigmaexperts.com/"> Consulting Business</a> on how to
               optimize their strategies in conjunction to Authoring multiple
               books and articles, his most recent Flawless Launches.
             </p>
